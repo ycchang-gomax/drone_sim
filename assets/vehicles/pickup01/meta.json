@@ -1,0 +1,26 @@
+{
+  "id": "cn_police_pickup",
+  "make_model": "Dongfeng Rich / Nissan D22 (police, approx)",
+  "length_m": 5.08,
+  "width_m": 1.70,
+
+  // Sprite anchor (normalized 0..1 from top-left).
+  // Use rear-axle center so the truck “sits” correctly on the road.
+  "anchor_px": [0.50, 0.86],
+
+  // Long-side pixels that represent ~1× zoom in the sim.
+  "scale_base_px": 560,
+
+  // Image files for each view (relative to this folder)
+  "views": {
+    "front": "front.jpg",
+    "front_left": "front_left.jpg",
+    "front_right": "front_right.jpg",
+    "left": "left.jpg",
+    "right": "right.jpg",
+    "rear": "rear.jpg",
+    "rear_left": "rear_left.jpg",
+    "rear_right": "rear_right.jpg",
+    "top": "top.jpg"
+  }
+}

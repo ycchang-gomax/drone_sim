@@ -1,0 +1,27 @@
+{
+  "id": "red_taxi",
+  "make_model": "Nissan Sunny (approx)",
+  "length_m": 4.43,
+  "width_m": 1.70,
+
+  // Sprite anchor (normalized 0..1 from top-left). 
+  // Pick the contact point you want to “sit” on the road—usually rear axle center.
+  "anchor_px": [0.50, 0.85],
+
+  // Long-side pixels that represent ~1× zoom in the sim.
+  // (The code will scale every view relative to this.)
+  "scale_base_px": 480,
+
+  // Image files for each view (relative to this folder)
+  "views": {
+    "front": "front.jpg",
+    "front_left": "front_left.jpg",
+    "front_right": "front_right.jpg",
+    "left": "left.jpg",
+    "right": "right.jpg",
+    "rear": "rear.jpg",
+    "rear_left": "rear_left.jpg",
+    "rear_right": "rear_right.jpg",
+    "top": "top.jpg"
+  }
+}

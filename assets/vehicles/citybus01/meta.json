@@ -1,0 +1,21 @@
+{
+  "id": "cn_city_bus_mid",
+  "make_model": "Yutong/King Long city bus (approx 8.8 m)",
+  "length_m": 8.80,
+  "width_m": 2.40,
+
+  "anchor_px": [0.50, 0.88],
+  "scale_base_px": 560,
+
+  "views": {
+    "front": "front.jpg",
+    "front_left": "front_left.jpg",
+    "front_right": "front_right.jpg",
+    "left": "left.jpg",
+    "right": "right.jpg",
+    "rear": "rear.jpg",
+    "rear_left": "rear_left.jpg",
+    "rear_right": "rear_right.jpg",
+    "top": "top.jpg"
+  }
+}
